@@ -33,7 +33,7 @@
 								<li><a href="index.html">Home</a></li>
 								<li><a href="images/Modern_Deedy.pdf">Resume</a></li>
 								<li><a href="courses_certificates.html">Courses and Certifications</a></li>
-								<li><a href="#">Projects</a></li>
+								<li><a href="#projects">Projects</a></li>
 								<!-- <li><a href="#">Sign Up</a></li> -->
 							</ul>
 							<a href="#" class="close">Close</a>
@@ -93,7 +93,7 @@
 
 						<!-- Four -->
 							<section id="four" class="wrapper alt style1">
-								<div class="inner">
+								<div class="inner" id="projects">
 									<h2 class="major">Projects</h2>
 									<p>Explore a diverse range of projects where I've applied my <b>data analysis and visualization skills</b> to tackle real-world challenges, creating valuable insights and solutions.</p>
 									<section class="features">
@@ -183,6 +183,25 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				// Smooth scrolling function
+				function smoothScroll(target) {
+				  const targetElement = document.querySelector(target);
+				  if (targetElement) {
+					window.scrollTo({
+					  top: targetElement.offsetTop,
+					  behavior: 'smooth'
+					});
+				  }
+				}
+			  
+				// Attach click event to the "Projects" link
+				const projectsLink = document.querySelector('a[href="#projects"]');
+				projectsLink.addEventListener('click', function(event) {
+				  event.preventDefault();
+				  smoothScroll('#projects');
+				});
+			  </script>
+			  
 	</body>
 </html>

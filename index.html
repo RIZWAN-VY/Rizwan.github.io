@@ -33,7 +33,7 @@
 								<li><a href="index.html">Home</a></li>
 								<li><a href="images/Modern_Deedy.pdf">Resume</a></li>
 								<li><a href="courses_certificates.html">Courses and Certifications</a></li>
-								<li><a href="#projects">Projects</a></li>
+								<li><a href="#project_section">Project</a></li>
 								<li><a href="#contact_section">Contact</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
@@ -93,40 +93,42 @@
 
 						<!-- Four -->
 							<section id="four" class="wrapper alt style1">
-								<div class="inner" id="projects">
-									<h2 class="major">Projects</h2>
-									<p>Explore a diverse range of projects where I've applied my <b>data analysis and visualization skills</b> to tackle real-world challenges, creating valuable insights and solutions.</p>
-									<section class="features">
-										<article>
-											<a href="twitter_sentiment_analysis.html" class="image"><img src="images/twitter_sentiment_project.jpg" alt="" /></a>
-											<h3 class="major"><a href="twitter_sentiment_analysis.html">Twitter Sentiment Analysis using Python</a></h3>
-											<p>Analyzed Twitter data to determine public sentiment on specific keywords using <b>Python</b> and the <b>Tweepy library</b> for data extraction. Utilized the <b>TextBlob library</b> for sentiment categorization and implemented a <b>user interaction</b> function. Created <b>visualizations</b> for sentiment distribution and frequently occurring words, enhancing the interactive experience for exploring insights.</p>
-											<a href="twitter_sentiment_analysis.html" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="sales_data_powerBI.html" class="image"><img src="images/sales.jpg" alt="" /></a>
-											<h3 class="major"><a href="sales_data_powerBI.html">Exploratory Data Analysis and Visualization of Sales Data</a></h3>
-											<p>Gathered and processed sales data, utilizing <b> Microsoft Excel</b> for data manipulation and cleaning. Created an interactive sales dashboard using <b>Power BI</b>, presenting key insights and trends in a visually engaging manner.</p>
-											<a href="sales_data_powerBI.html" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="research_study_excel.html" class="image"><img src="images/research study excel.webp" alt="" /></a>
-											<h3 class="major"><a href="research_study_excel.html">Conducted a Research Study and use Microsoft Excel for Analysis and Visualization.</a></h3>
-											<p><b>Research Study: Customer's Preference and Awareness of Modes of Payments in Online Shopping.</b><br>
-												Collected data through surveys and organized it using <b>Microsoft Excel</b>. Utilized <b>Excel's pivot tables and charts</b> for thorough analysis, resulting in a visually engaging <b>dashboard</b> that highlights key insights.</p>
-											<a href="research_study_excel.html" class="special">Learn more</a>
-										</article>
-										<!-- <article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<h3 class="major">Fusce consequat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
-										</article> -->
-									</section>
-									<!-- <ul class="actions">
-										<li><a href="#" class="button">Browse All</a></li>
-									</ul> -->
-								</div>
+								<section id="project_section">
+									<div class="inner">
+										<h2 class="major">Projects</h2>
+										<p>Explore a diverse range of projects where I've applied my <b>data analysis and visualization skills</b> to tackle real-world challenges, creating valuable insights and solutions.</p>
+										<section class="features">
+											<article>
+												<a href="twitter_sentiment_analysis.html" class="image"><img src="images/twitter_sentiment_project.jpg" alt="" /></a>
+												<h3 class="major"><a href="twitter_sentiment_analysis.html">Twitter Sentiment Analysis using Python</a></h3>
+												<p>Analyzed Twitter data to determine public sentiment on specific keywords using <b>Python</b> and the <b>Tweepy library</b> for data extraction. Utilized the <b>TextBlob library</b> for sentiment categorization and implemented a <b>user interaction</b> function. Created <b>visualizations</b> for sentiment distribution and frequently occurring words, enhancing the interactive experience for exploring insights.</p>
+												<a href="twitter_sentiment_analysis.html" class="special">Learn more</a>
+											</article>
+											<article>
+												<a href="sales_data_powerBI.html" class="image"><img src="images/sales.jpg" alt="" /></a>
+												<h3 class="major"><a href="sales_data_powerBI.html">Exploratory Data Analysis and Visualization of Sales Data</a></h3>
+												<p>Gathered and processed sales data, utilizing <b> Microsoft Excel</b> for data manipulation and cleaning. Created an interactive sales dashboard using <b>Power BI</b>, presenting key insights and trends in a visually engaging manner.</p>
+												<a href="sales_data_powerBI.html" class="special">Learn more</a>
+											</article>
+											<article>
+												<a href="research_study_excel.html" class="image"><img src="images/research study excel.webp" alt="" /></a>
+												<h3 class="major"><a href="research_study_excel.html">Conducted a Research Study and use Microsoft Excel for Analysis and Visualization.</a></h3>
+												<p><b>Research Study: Customer's Preference and Awareness of Modes of Payments in Online Shopping.</b><br>
+													Collected data through surveys and organized it using <b>Microsoft Excel</b>. Utilized <b>Excel's pivot tables and charts</b> for thorough analysis, resulting in a visually engaging <b>dashboard</b> that highlights key insights.</p>
+												<a href="research_study_excel.html" class="special">Learn more</a>
+											</article>
+											<!-- <article>
+												<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+												<h3 class="major">Fusce consequat</h3>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
+												<a href="#" class="special">Learn more</a>
+											</article> -->
+										</section>
+										<!-- <ul class="actions">
+											<li><a href="#" class="button">Browse All</a></li>
+										</ul> -->
+									</div>
+								</section>
 							</section>
 
 					</section>
@@ -186,25 +188,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/scroll_contact.js"></script>
-			<script>
-				// Smooth scrolling function
-				function smoothScroll(target) {
-				  const targetElement = document.querySelector(target);
-				  if (targetElement) {
-					window.scrollTo({
-					  top: targetElement.offsetTop,
-					  behavior: 'smooth'
-					});
-				  }
-				}
-			  
-				// Attach click event to the "Projects" link
-				const projectsLink = document.querySelector(a[href="projects"]);
-				projectsLink.addEventListener('click', function(event) {
-				  event.preventDefault();
-				  smoothScroll('projects');
-				});
-			  </script>
-			  
+			<script src="assets/js/scroll_project.js"></script>			  
 	</body>
 </html>
